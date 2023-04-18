@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EncriptadorJs</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div>
+        <img src="images/Logo.svg" alt="logo-aluralatam">
+    </div>
+</header>
+<main>
+    <div class="main-div">
+        <div class="input-div">
+            <div class="textarea-div">
+                <label for="text-input">Ingrese aquí el texto:</label>
+                <textarea id="text-input" placeholder="Ingrese aquí el texto"></textarea>
+            </div>
+            <div class="advise">
+                <img src="images/bi_exclamation-circle-fill.svg" alt="warning-image">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons-div">
+                <button id="encrypt-btn" type="button">Encriptar</button>
+                <button id="decrypt-btn" type="button">Desencriptar</button>
+            </div>
+        </div>
+        <div class="output-div">
+            <div class="output-p-div">
+                <img class="character temp" src="images/Muñeco.svg" alt="personaje-observando">
+                <p class="temp">Ningún mensaje fue encontrado</p>
+                <p class="temp">Ingresa el texto que desees encriptar o desencriptar</p>
+                <p id="encrypted-text"></p>
+            </div>
+
+            <div class="copy-button-div">
+                <button id="copy-btn" type="button">Copiar</button>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div>
+        <a href="https://github.com/Tin-HA" target="_blank">@MartinHA</a>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
